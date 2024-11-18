@@ -5,6 +5,7 @@ import * as bootstrap from 'bootstrap';
 
 import { Header } from './components/Header'
 import { Main } from './components/Main'
+import { Footer } from './components/Footer'
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header className="Header"></Header>
       <Main className="Main" />
+      <Footer/>
     </div>
   );
 }
