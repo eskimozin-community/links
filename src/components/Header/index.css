@@ -32,6 +32,7 @@ header h1 {
   margin-bottom: 0 !important;
   text-decoration: unset;
   text-transform: lowercase;
+  font-weight: 600;
 }
 
 header .link-style {

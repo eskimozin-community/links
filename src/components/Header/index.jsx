@@ -12,7 +12,7 @@ function Header() {
           data-bs-custom-class="custom-tooltip"
           title="Eu no GitHub"
         >
-          <img src="https://avatars.githubusercontent.com/u/105074547" alt="Imagem do Eskimozin" />
+          <img src="#" alt="Imagem do Eskimozin" />
         </a>
       </div>
       <h1>Eskimozin</h1>
