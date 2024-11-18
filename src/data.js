@@ -1,119 +1,78 @@
 const sections = [
   {
-    title: "Meus jogos",
-    legend: "Os games que eu mais curto jogar!",
+    title: "redes sociais",
+    legend: "O eskimo nos bagui ai",
     className: "games-list",
     listItems: [
       {
-        link: "https://term.ooo/",
-        img: "https://www.maistecnologia.com/wp-content/uploads/2022/01/wordle-esta-a-tornar-se-viral-e-ja-ha-uma-versao-em-portugues-termo-maistecnologia.com-1.png",
-        alt: "Imagem de Termo",
-        title: "Termo"
+        link: "https://twitter.com/eskimozinmorreu",
+        img: "./img/twitter.png",
+        alt: "Logo do Twitter",
+        title: "Twitter"
       },
       {
-        link: "https://www.twitch.tv/directory/category/league-of-legends",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg",
-        alt: "Imagem do jogo League of Legends",
-        title: "League of Legends"
+        link: "https://www.instagram.com/eskimozin",
+        img: "./img/instagram.png",
+        alt: "Logo do Instagram",
+        title: "Instagram"
       },
       {
-        link: "https://www.twitch.tv/directory/category/stardew-valley",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/490744-188x250.jpg",
-        alt: "Imagem do jogo Stardew Valley",
-        title: "Stardew Valley"
-      },
-      {
-        link: "https://www.twitch.tv/directory/category/outer-wilds",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/489335-188x250.jpg",
-        alt: "Imagem do jogo Outer Wilds",
-        title: "Outler Wilds"
-      },
-      {
-        link: "https://www.twitch.tv/directory/category/limbo-2010",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/27377_IGDB-188x250.jpg",
-        alt: "Imagem do jogo Limbo",
-        title: "Limbo"
+        link: "https://www.tiktok.com/@eskimozinn",
+        img: "./img/tiktok.png",
+        alt: "Logo do TikTok",
+        title: "TikTok"
       },
     ]
   },
   {
-    title: "Canais e streamers",
-    legend: "Lista de canais e transmissões que não perco!",
+    title: "eskimozin no youtube",
+    legend: "Lista de canais",
     className: "channel-list",
     listItems: [
       {
-        link: "https://www.twitch.tv/eskimozin",
-        img: "https://static-cdn.jtvnw.net/jtv_user_pictures/aaa62dbc-7df8-409e-9549-c9f97d7745cc-profile_image-150x150.png",
-        alt: "Imagem de Eskimozin",
-        title: "Eskimozin"
+        order: 1,
+        link: "https://www.youtube.com/@eskimozincraft",
+        img: "https://yt3.googleusercontent.com/e7gO417C3XOj5uOWr1RubdOks4jGoZqPqi0ea8GXmHv7_hUgrWCFkfAeg0h7V-JKbt03dGhV",
+        alt: "Foto de perfil do canal Eskimozincraft",
+        title: "eskimozincraft"
       },
       {
-        link: "https://www.twitch.tv/lazulilaska",
-        img: "https://static-cdn.jtvnw.net/jtv_user_pictures/e37986de-30e0-40af-a878-54e4ec1df319-profile_image-150x150.png",
-        alt: "Imagem de Lazulilaska",
-        title: "Lazulilaska"
+        order: 3,
+        link: "https://www.youtube.com/@eskimozin",
+        img: "https://yt3.googleusercontent.com/KTB6jr_vvvSlTa-aL5YYNiman1onqw4sxFbmbxsnK78_QSronnhMRuFdA6GRt_ed_jOaZQAJYw",
+        alt: "Foto de perfil do canal Eskimozin",
+        title: "eskimozin"
       },
       {
-        link: "https://www.youtube.com/@gabrielcriador",
-        img: "https://yt3.googleusercontent.com/a21n_R-4h9Lk8-NWrA_NkqK20QmwHQylDJan4L9SwG3ICsLMGt2CbB8s_CEgqouTDXD1IecS5Q=s176-c-k-c0x00ffffff-no-rj",
-        alt: "Imagem de Gabriel, o Criador",
-        title: "Gabriel, o Criador"
+        order: 2,
+        link: "https://www.youtube.com/@eskimozinplays",
+        img: "https://yt3.googleusercontent.com/XcsH6E1sQriC6PKxbotushLRh2d_8suy8rIbBXfpMi8QeTbIsUAeVv7kTkvlkPgP43OA5ponWQ",
+        alt: "Foto de perfil do canal Eskimozin Plays",
+        title: "gameplays"
       },
-      {
-        link: "https://www.youtube.com/@gutos_",
-        img: "https://yt3.googleusercontent.com/2Rh8IkrqTTc9AYJ-9Cxo6k8M4vS-okZRH30pezUgg3Kdgpl2E0Ji0GplGVz28dv3W5lKsHqB",
-        alt: "Imagem de Gutos",
-        title: "Gutos"
-      },
-      {
-        link: "https://www.youtube.com/@ande",
-        img: "https://yt3.googleusercontent.com/CGk2Y-lGFk5vxhYDmBdjDNDVyPVRREoHYsIGwvpEc9FxmYd9lHlX2TUNpH4vdwPpb-T3hXcScQ=s176-c-k-c0x00ffffff-no-rj",
-        alt: "Imagem de Ande",
-        title: "Ande"
-      },
-      {
-        link: "https://www.youtube.com/@daniel_svs",
-        img: "https://yt3.googleusercontent.com/OO-QWrMm4q2UOcySXDdS0B_TXEkXucoClBTNgmgcmw3R5XR38Eawj1TrUhX-zvGNBDuvjaIrxw=s160-c-k-c0x00ffffff-no-rj",
-        alt: "Imagem de Daniel SVS",
-        title: "Daniel SVS"
-      }
     ]
   },
   {
-    title: "Minhas redes",
-    legend: "Se conecte comigo agora mesmo!",
+    title: "comunidade e parceiros",
+    legend: "Acompanhe a comunidade",
     className: "social-list",
     listItems: [
       {
+        order: 1,
         visible: true,
-        link: "https://github.com/gabriersdev",
-        img: "./img/github.svg",
-        alt: "GitHub"
+        link: "https://discord.gg/fSzDQkBxcf",
+        img: "./img/discord.png",
+        alt: "Logo do Discord",
+        title: "Iglu"
       },
       {
+        order: 2,
         visible: true,
-        link: "https://www.linkedin.com/in/gabrielribeirodev/",
-        img: "./img/linkedin.svg",
-        alt: "Linkedin"
+        link: "https://open.spotify.com/intl-pt/artist/2tEePR3QOQxfvB9Q1ILPp8",
+        img: "./img/spotify.png",
+        alt: "Logo do Spotify",
+        title: "Lil Esk"
       },
-      {
-        visible: true,
-        link: "https://www.behance.net/devgabrielribeiro",
-        img: "./img/behance.svg",
-        alt: "Behance"
-      },
-      {
-        visible: false,
-        link: "https://letterboxd.com/gabriers/",
-        img: "#",
-        alt: "Letterboxd"
-      },
-      {
-        visible: false,
-        link: "https://cursos.alura.com.br/emprega-one/profile/devgabrielribeiro",
-        img: "./img/oracle-one.svg",
-        alt: "Oracle ONE"
-      }
     ]
   }
 ]

@@ -23,6 +23,7 @@ function List({ className, id }) {
                   alt={item.alt}
                 />
               </a>
+              {className === "channel-list" ? <h3 className={"title"}>{item.title}</h3> : ""}
             </li>
           )
         })

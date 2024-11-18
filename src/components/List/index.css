@@ -2,7 +2,7 @@ section ul {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  
+
   margin-top: 24px;
   padding: 0;
 }
@@ -12,7 +12,7 @@ section ul li {
 }
 
 section ul li:hover {
-  transform: scale(1.1);
+  transform: unset;
 }
 
 .games-list img {
@@ -22,10 +22,25 @@ section ul li:hover {
   object-fit: cover;
 }
 
+.channel-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .channel-list img {
-  border-radius: 50%; 
+  border-radius: 50%;
   width: 70px;
   border: 1px solid #443E54;
+}
+
+.channel-list .title {
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 .social-list img {
