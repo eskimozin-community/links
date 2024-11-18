@@ -1,18 +1,19 @@
 header {
-  padding-top: 32px;
-  height: calc(120px + 32px);
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 header div {
   width: 120px;
   margin: auto;
   background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-  
+
   border-radius: 50%;
-  
+
   display: flex;
   padding: 4px;
-  
+
   transition: transform .3s;
 }
 
@@ -23,4 +24,19 @@ header div:hover {
 header div img {
   width: 100%;
   border-radius: 50%;
+  min-height: 2rem;
+}
+
+header h1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0 !important;
+  text-decoration: unset;
+  text-transform: lowercase;
+}
+
+header .link-style {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300 !important;
+  margin-top: 0.5rem;
 }

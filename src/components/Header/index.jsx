@@ -12,9 +12,11 @@ function Header() {
           data-bs-custom-class="custom-tooltip"
           title="Eu no GitHub"
         >
-          <img src="https://github.com/gabriersdev.png" alt="Selfie de Gabriel" />
+          <img src="https://avatars.githubusercontent.com/u/105074547" alt="Imagem do Eskimozin" />
         </a>
       </div>
+      <h1>Eskimozin</h1>
+      <a href="#" className={"link-style"} rel={"noreferrer noopener"} data-ref={"eskimozin-mail"}>mail@eskimozin.com</a>
     </header>
   )
 }
