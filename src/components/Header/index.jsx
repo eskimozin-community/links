@@ -1,22 +1,25 @@
 import './index.css'
+import { contacts } from '../../data'
 
 function Header() {
+  const { mail } = contacts
+
   return (
     <header>
       <div>
         <a
-          href="https://github.com/gabriersdev"
+          href="https://www.twitch.tv/eskimozin/"
           rel="noreferrer noopener"
           data-toggle="tooltip"
           data-placement="top"
           data-bs-custom-class="custom-tooltip"
-          title="Eu no GitHub"
+          title="Whiskimo na Twitch"
         >
-          <img src="#" alt="Imagem do Eskimozin" />
+          <img src="./img/favicon.png" alt="Imagem do Eskimozin" />
         </a>
       </div>
       <h1>Eskimozin</h1>
-      <a href="#" className={"link-style"} rel={"noreferrer noopener"} data-ref={"eskimozin-mail"}>mail@eskimozin.com</a>
+      <a href={`mailto:${mail}`} className={"link-style"} rel={"noreferrer noopener"} data-ref={"eskimozin-mail"}>{mail}</a>
     </header>
   )
 }

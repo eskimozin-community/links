@@ -1,3 +1,10 @@
+:root {
+  --gradient-default: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  --gradient-1: linear-gradient(90deg, #ff8c7a 0%, #61b2fb 50%, #78f878 100%);
+  --gradient-2: linear-gradient(90deg, #f669b6 0%, #00BFFF 50%, #e69a3f 100%);
+  --gradient-3: linear-gradient(90deg, #e36f3f 0%, #a155ef 50%, #c2eaa2 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,13 +22,13 @@ body {
   background-position: top center;
   background-size: cover;
   background-repeat: repeat-y;
-  background-color: #121214;
   min-height: 100vh;
 }
 
 body * {
   font-family: 'Inter', sans-serif;
   line-height: 160%;
+  font-size: 1rem;
 }
 
 /* animation */
@@ -71,7 +78,7 @@ main section:nth-child(3) {
 }
 
 .custom-tooltip {
-  --bs-tooltip-font-size: 13px;
+  --bs-tooltip-font-size: 16px;
   --bs-tooltip-bg: #000 !important;
   --bs-tooltip-color: #FFF !important;
   --bs-tooltip-opacity: 0.9;

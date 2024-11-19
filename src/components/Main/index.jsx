@@ -2,7 +2,6 @@ import { Section } from '../Section'
 import { sections } from '../../data'
 import './index.css'
 
-
 function Main() {
   return (
     <main>

@@ -3,10 +3,12 @@ import { sections } from '../../data'
 import './index.css'
 
 function List({ className, id }) {
+  const list = !sections[id].listItems[0].order ? sections[id].listItems.filter((e) => e.visible === undefined || e.visible === true).sort((a, b) => a.title ? a.title.localeCompare(b.title) : a.alt.localeCompare(b.alt)) : sections[id].listItems.sort((a, b) => a.order - b.order)
+
   return (
     <ul className={className}>
       {
-        sections[id].listItems.filter((e) => e.visible === undefined || e.visible === true).sort((a, b) => a.title ? a.title.localeCompare(b.title) : a.alt.localeCompare(b.alt)).map((item, index) => {
+         list.map((item, index)  => {
           return (
             <li
               key={index}
@@ -23,7 +25,12 @@ function List({ className, id }) {
                   alt={item.alt}
                 />
               </a>
-              {className === "channel-list" ? <h3 className={"title"}>{item.title}</h3> : ""}
+              <a target="_blank"
+                rel="noreferrer noopener"
+                href={item.link}>
+                {["channel-list", "social-list community"].includes(className) ? <h3 className={"title"}>{item.name}</h3> : ""}
+                {className === "social-list" ? <h3 className={"title"}>{item.nick}</h3> : ""}
+              </a>
             </li>
           )
         })

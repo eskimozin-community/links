@@ -1,28 +1,25 @@
+:root {
+  --width-img-list: 100px;
+}
+
 section ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  justify-content: center;
+  gap: 2rem;
 
   margin-top: 24px;
+  margin-bottom: 0;
   padding: 0;
+}
+
+section a {
+  text-decoration: none;
+  color: #F7F7F7;
 }
 
 section ul li {
   transition: transform .3s;
-}
-
-section ul li:hover {
-  transform: unset;
-}
-
-.games-list img {
-  width: 90px;
-  height: 125px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.channel-list li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,17 +27,28 @@ section ul li:hover {
   flex-wrap: wrap;
 }
 
-.channel-list img {
-  border-radius: 50%;
-  width: 70px;
-  border: 1px solid #443E54;
+section ul li:hover {
+  transform: unset;
 }
 
-.channel-list .title {
+section ul li h3.title {
   text-align: center;
   display: block;
   font-size: 1rem;
+  font-weight: 300;
   margin-top: 0.5rem;
+  /* Reticences */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-lines: 1;
+  max-width: calc(var(--width-img-list) * 1.5);
+}
+
+.channel-list img {
+  border-radius: 50%;
+  width: var(--width-img-list);
+  border: 1px solid #443E54;
 }
 
 .social-list img {

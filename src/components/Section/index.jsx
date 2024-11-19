@@ -6,7 +6,9 @@ function Section({ title, legend, className, id }) {
   return (
     <section>
       <div>
-        <h2>{title}</h2>
+        { className === "channel-list" ?
+          <hgroup className={"title-channel-list"}><h2>{title}</h2><img src={"./img/youtube.jpg"} className={"badge-channel-list"}/></hgroup> :
+          <h2>{title}</h2>}
         <p>{legend}</p>
         <List
           id={id}

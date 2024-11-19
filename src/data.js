@@ -2,35 +2,39 @@ const sections = [
   {
     title: "redes sociais",
     legend: "O eskimo nos bagui ai",
-    className: "games-list",
+    className: "social-list",
     listItems: [
       {
         link: "https://twitter.com/eskimozinmorreu",
-        img: "./img/twitter.png",
+        nick: "@eskimozinmorreu",
+        img: "./img/twitter.jpg",
         alt: "Logo do Twitter",
         title: "Twitter"
       },
       {
         link: "https://www.instagram.com/eskimozin",
-        img: "./img/instagram.png",
+        nick: "@eskimozin",
+        img: "./img/instagram.jpg",
         alt: "Logo do Instagram",
         title: "Instagram"
       },
       {
         link: "https://www.tiktok.com/@eskimozinn",
-        img: "./img/tiktok.png",
+        nick: "@eskimozinn",
+        img: "./img/tiktok.jpg",
         alt: "Logo do TikTok",
         title: "TikTok"
       },
     ]
   },
   {
-    title: "eskimozin no youtube",
+    title: "eskimozin no",
     legend: "Lista de canais",
     className: "channel-list",
     listItems: [
       {
         order: 1,
+        name: "cortes de live",
         link: "https://www.youtube.com/@eskimozincraft",
         img: "https://yt3.googleusercontent.com/e7gO417C3XOj5uOWr1RubdOks4jGoZqPqi0ea8GXmHv7_hUgrWCFkfAeg0h7V-JKbt03dGhV",
         alt: "Foto de perfil do canal Eskimozincraft",
@@ -38,6 +42,7 @@ const sections = [
       },
       {
         order: 3,
+        name: "eskimozin",
         link: "https://www.youtube.com/@eskimozin",
         img: "https://yt3.googleusercontent.com/KTB6jr_vvvSlTa-aL5YYNiman1onqw4sxFbmbxsnK78_QSronnhMRuFdA6GRt_ed_jOaZQAJYw",
         alt: "Foto de perfil do canal Eskimozin",
@@ -45,36 +50,52 @@ const sections = [
       },
       {
         order: 2,
+        name: "gameplays",
         link: "https://www.youtube.com/@eskimozinplays",
         img: "https://yt3.googleusercontent.com/XcsH6E1sQriC6PKxbotushLRh2d_8suy8rIbBXfpMi8QeTbIsUAeVv7kTkvlkPgP43OA5ponWQ",
         alt: "Foto de perfil do canal Eskimozin Plays",
-        title: "gameplays"
+        title: "eskimozinplays"
       },
     ]
   },
   {
     title: "comunidade e parceiros",
-    legend: "Acompanhe a comunidade",
-    className: "social-list",
+    legend: "Acompanhe a comunidade e o eskimo em outras plataformas",
+    className: "social-list community",
     listItems: [
       {
         order: 1,
         visible: true,
+        name: "servidor",
         link: "https://discord.gg/fSzDQkBxcf",
-        img: "./img/discord.png",
+        img: "./img/discord.jpg",
         alt: "Logo do Discord",
-        title: "Iglu"
+        title: "Discord"
       },
       {
         order: 2,
         visible: true,
+        name: "Lil Esk",
         link: "https://open.spotify.com/intl-pt/artist/2tEePR3QOQxfvB9Q1ILPp8",
         img: "./img/spotify.png",
         alt: "Logo do Spotify",
-        title: "Lil Esk"
+        title: "Spotify"
+      },
+      {
+        order: 3,
+        visible: true,
+        name: "canal na twitch",
+        link: "https://www.twitch.tv/eskimozin/",
+        img: "./img/twitch.jpg",
+        alt: "Logo da Twitch",
+        title: "Twitch"
       },
     ]
-  }
+  },
 ]
 
-export { sections }
+const contacts = {
+  mail: "eskimozin@mecinc.gg"
+}
+
+export { sections, contacts }
