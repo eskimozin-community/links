@@ -30,7 +30,15 @@ body * {
   font-size: 1rem;
 }
 
-/* animation */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 header div {
   animation: fromTop .7s .2s backwards;
@@ -82,4 +90,13 @@ main section:nth-child(3) {
   --bs-tooltip-color: #FFF !important;
   --bs-tooltip-opacity: 0.9;
   --bs-tooltip-margin: 2rem !important;
+}
+
+.text-muted {
+  letter-spacing: 0.18px;
+  font-size: 1rem;
+  font-family: 'Inter Tight', 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(232, 230, 227, 0.53);
 }

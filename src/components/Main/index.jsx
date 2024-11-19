@@ -1,3 +1,4 @@
+import { Banner} from "../Banner";
 import { Section } from '../Section'
 import { sections } from '../../data'
 import './index.css'
@@ -5,6 +6,7 @@ import './index.css'
 function Main() {
   return (
     <main>
+      <Banner/>
       {
         sections.map(function (secao, index) {
           return (
