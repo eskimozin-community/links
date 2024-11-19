@@ -1,9 +1,17 @@
 section {
   color: white;
-  background: var(--gradient-3);
+  background: var(--gradient-1);
   padding-top: 7.5px;
   border-radius: 10px;
   border-color: transparent;
+}
+
+section:nth-child(2) {
+  background: var(--gradient-3);
+}
+
+section:nth-child(3) {
+  background: var(--gradient-2);
 }
 
 section div {
