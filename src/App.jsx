@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header className="Header"></Header>
-      <Main className="Main" />
+      <Main className="Main"/>
       <Footer/>
     </div>
   );
