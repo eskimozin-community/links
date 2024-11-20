@@ -41,10 +41,5 @@ section h2 {
 }
 
 section p {
-  letter-spacing: 0.18px;
-  color: #FFF8;
-  font-size: 1rem;
-  font-family: 'Inter Tight', 'Inter', sans-serif;
-  font-weight: 300;
   text-align: center;
 }

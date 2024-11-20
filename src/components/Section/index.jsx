@@ -9,7 +9,7 @@ function Section({ title, legend, className, id }) {
         { className === "channel-list" ?
           <hgroup className={"title-channel-list"}><h2>{title}</h2><img src={"./img/youtube.jpg"} className={"badge-channel-list"}/></hgroup> :
           <h2>{title}</h2>}
-        <p>{legend}</p>
+        <p className={"text-muted"}>{legend}</p>
         <List
           id={id}
           className={className}

@@ -1,17 +1,16 @@
 .banner {
-    background: #333;
+    background: #2A2634;
     color: #FFF;
     border-radius: 10px;
-    border: 1px solid #FFFFFF50;
-    padding: 1.5rem;
+    border: 1px solid #FFFFFF25;
+    padding: 1.5rem ;
 }
 
 .banner .badge {
     background: var(--gradient-3);
-    color: #333;
+    color: #2A2634;
     border-radius: 50px;
-    padding: 0.5rem;
-    padding-top: 0.55rem;
+    padding: 0.55rem 0.5rem 0.5rem 0.5rem;
     font-weight: 300;
     line-height: 1;
     margin-right: 0.5rem;
@@ -19,8 +18,20 @@
 
 .banner .title {
     padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 500;
     margin: 1rem 0;
+    text-transform: initial;
+    text-align: left;
+}
+
+.banner .emphasis {
+    background: var(--gradient-3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.banner .description {
+    text-align: left;
 }

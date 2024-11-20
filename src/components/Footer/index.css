@@ -1,10 +1,5 @@
 .footer {
     .text {
-        color: rgba(232, 230, 227, 0.53);
-        letter-spacing: 0.18px;
-        font-size: 1rem;
-        font-family: 'Inter Tight', 'Inter', sans-serif;
-        font-weight: 300;
         text-align: center;
         margin-bottom: 0;
         padding-bottom: 2rem !important;
