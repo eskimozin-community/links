@@ -67,7 +67,7 @@ const sections = [
         order: 1,
         visible: true,
         name: "servidor",
-        link: "https://discord.gg/fSzDQkBxcf",
+        link: "https://discord.gg/iglu",
         img: "./img/discord.jpg",
         alt: "Logo do Discord",
         title: "Discord"
