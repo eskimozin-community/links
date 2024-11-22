@@ -1,5 +1,6 @@
 :root {
   --width-img-list: 100px;
+  --height-img-list: 100px;
 }
 
 section ul {
@@ -48,7 +49,9 @@ section ul li h3.title {
 .channel-list img {
   border-radius: 50%;
   width: var(--width-img-list);
+  height: var(--height-img-list);
   border: 1px solid #443E54;
+  color: #C2EAA2;
 }
 
 .social-list img {

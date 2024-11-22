@@ -1,8 +1,8 @@
 :root {
   --gradient-default: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-  --gradient-1: linear-gradient(90deg, #ff8c7a 0%, #61b2fb 50%, #78f878 100%);
-  --gradient-2: linear-gradient(90deg, #f669b6 0%, #00BFFF 50%, #e69a3f 100%);
-  --gradient-3: linear-gradient(90deg, #e36f3f 0%, #a155ef 50%, #c2eaa2 100%);
+  --gradient-1: linear-gradient(90deg, #FF8C7A 0%, #61B2FB 50%, #78F878 100%);
+  --gradient-2: linear-gradient(90deg, #F669B6 0%, #00BFFF 50%, #E69A3F 100%);
+  --gradient-3: linear-gradient(90deg, #E36F3F 0%, #A155EF 50%, #C2EAA2 100%);
 }
 
 * {
