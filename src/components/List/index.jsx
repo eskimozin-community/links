@@ -28,8 +28,7 @@ function List({ className, id }) {
               <a target="_blank"
                 rel="noreferrer noopener"
                 href={item.link}>
-                {["channel-list", "social-list community"].includes(className) ? <h3 className={"title"}>{item.name}</h3> : ""}
-                {className === "social-list" ? <h3 className={"title"}>{item.nick}</h3> : ""}
+                {className === "social-list" ? <h3 className={"title"}>{item.nick}</h3> : <h3 className={"title"}>{item.name}</h3>}
               </a>
             </li>
           )

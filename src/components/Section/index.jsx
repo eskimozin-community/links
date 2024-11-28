@@ -6,8 +6,12 @@ function Section({ title, legend, className, id }) {
   return (
     <section>
       <div>
-        { className === "channel-list" ?
-          <hgroup className={"title-channel-list"}><h2>{title}</h2><img src={"./img/youtube.jpg"} className={"badge-channel-list"}/></hgroup> :
+        { ["channel-list", "general-list incidente"].includes(className) ?
+          <hgroup className={"title-channel-list"}>
+            <h2>{title}</h2>
+            { className === "channel-list" ? <img src={"./img/youtube.jpg"} className={"badge-channel-list"}/> : "" }
+            { className === "general-list incidente" ? <img src={"./img/oincidente.jpg"} className={"badge-channel-list"}/> : "" }
+          </hgroup> :
           <h2>{title}</h2>}
         <p className={"text-muted"}>{legend}</p>
         <List

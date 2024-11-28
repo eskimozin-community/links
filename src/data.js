@@ -92,6 +92,40 @@ const sections = [
       },
     ]
   },
+  {
+    title: "incidente",
+    legend: "É os guri",
+    className: "general-list incidente",
+    listItems: [
+      {
+        order: 1,
+        visible: true,
+        name: "team na twitch",
+        link: "https://www.twitch.tv/team/incidente",
+        img: "./img/twitch.jpg",
+        alt: "Logo da Twitch",
+        title: "Twitch"
+      },
+      {
+        order: 2,
+        visible: true,
+        name: "twitter do incidente",
+        link: "https://x.com/oincidente",
+        img: "./img/twitter.jpg",
+        alt: "Logo do Twitter",
+        title: "Twitter"
+      },
+      {
+        order: 3,
+        visible: true,
+        name: "incidentando",
+        link: "https://www.youtube.com/@incidentando",
+        img: "./img/youtube.jpg",
+        alt: "Logo do YouTube",
+        title: "YouTube"
+      },
+    ]
+  },
 ]
 
 const contacts = {

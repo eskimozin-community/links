@@ -54,6 +54,6 @@ section ul li h3.title {
   color: #C2EAA2;
 }
 
-.social-list img {
+.social-list img, .general-list img {
   width: 2rem;
 }
