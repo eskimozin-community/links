@@ -132,4 +132,4 @@ const contacts = {
   mail: "eskimozin@mecinc.gg"
 }
 
-export { sections, contacts }
+export {sections, contacts}
