@@ -1,5 +1,5 @@
 .banner {
-    background: #2A2634;
+    background: #2A2634 !important;
     color: #FFF;
     border-radius: 10px;
     border: 1px solid #FFFFFF25;
@@ -7,7 +7,7 @@
 }
 
 .banner .badge {
-    background: var(--gradient-3);
+    background: #C2EAA2;
     color: #2A2634;
     border-radius: 50px;
     padding: 0.55rem 0.5rem 0.5rem 0.5rem;

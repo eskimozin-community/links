@@ -1,10 +1,12 @@
 import { Section } from '../Section'
 import { sections } from '../../data'
 import './index.css'
+import {Campaings} from "../Campaings/index.jsx";
 
 function Main() {
   return (
     <main>
+      <Campaings key={"campaing"} />
       {
         sections.map(function (secao, index) {
           return (

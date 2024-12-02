@@ -4,6 +4,7 @@ Funcionamento da funcionalidade de exibir campanhas
     - Título
     - Subtítulo
     - Link
+    - Legenda ou instrução para o link
     - Nome do link para exibição
     - Data de início
     - Data de fim
