@@ -1,5 +1,5 @@
 import ProtoTypes from 'prop-types';
-import {sections} from '../../data'
+import {sections} from '../../data/sections.js'
 import './index.css'
 
 function List({className, id}) {

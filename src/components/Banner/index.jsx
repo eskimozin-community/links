@@ -1,6 +1,5 @@
 import './index.css'
 import PropTypes from "prop-types";
-import {Link} from "react-router-dom";
 
 function Banner({title, subtitle, link, legend, linkName}) {
   let linkImg = <></>
@@ -26,7 +25,7 @@ function Banner({title, subtitle, link, legend, linkName}) {
         <span className={"badge"}>OUT NOW</span>
         <h2 className={"title mb-0 text-balance"}>{title}</h2>
         <h2 className={"title mt-1 emphasis fw-bold text-balance"}>{subtitle}</h2>
-        <p className={"description"}>
+        <p className={"description text-balance"}>
           <span className={"text-muted"}>{legend}</span>{legend ? " " : null}
           <span>{linkName}</span>
           <span>{linkImg}</span>

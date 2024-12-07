@@ -1,5 +1,5 @@
 import { Section } from '../Section'
-import { sections } from '../../data'
+import { sections } from '../../data/sections.js'
 import './index.css'
 import {Campaings} from "../Campaings/index.jsx";
 

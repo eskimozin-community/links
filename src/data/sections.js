@@ -128,20 +128,4 @@ const sections = [
   },
 ]
 
-const campaings = [
-  {
-    title: "Subathon",
-    subtitle: "A live só acaba quando o timer chegar a zero!",
-    link: "https://twitch.tv/eskimozin",
-    legend: "Acesse agora",
-    linkName: "na Twitch",
-    datetimeInit: "2024-01-01 00:00:00",
-    datetimeFinish: "2023-12-10 00:00:00"
-  },
-]
-
-const contacts = {
-  mail: "eskimozin@mecinc.gg"
-}
-
-export {sections, contacts, campaings}
+export {sections}

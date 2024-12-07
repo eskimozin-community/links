@@ -1,5 +1,5 @@
 import './index.css'
-import { contacts } from '../../data'
+import { contacts } from '../../data/contacts.js'
 
 function Header() {
   const { mail } = contacts
