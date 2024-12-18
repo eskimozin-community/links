@@ -104,6 +104,10 @@ p.text-muted, span.text-muted {
   text-wrap: balance;
 }
 
+.text-always-balance {
+  text-wrap: balance;
+}
+
 @media screen and (max-width: 500px) {
   .text-balance {
     text-wrap: initial;
