@@ -28,7 +28,7 @@
 .banner .emphasis {
     background: var(--gradient-3);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text !important;
     background-clip: text;
 }
 
