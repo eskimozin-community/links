@@ -14,7 +14,7 @@ const campaings = [
     "link": "https://twitch.tv/eskimozin",
     "legend": "Acesse agora",
     "linkName": "Twitch",
-    "datetimeInit": "2024-12-18 00:00:00",
+    "datetimeInit": "2024-12-18T00:00",
     "datetimeFinish": "2024-12-18T23:59"
   }
 ];
