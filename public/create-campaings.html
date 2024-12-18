@@ -155,6 +155,10 @@
             // Para evitar que dois alertas sejam exibidos
             if (!hasEmptyField) alert('Data de início não pode ser igual a data de fim');
             return true;
+          } else if (dateFinish < new Date()) {
+            // Para evitar que dois alertas sejam exibidos
+            if (!hasEmptyField) alert('Data de fim não pode ser menor que a data atual');
+            return true;
           }
         });
 
