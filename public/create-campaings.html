@@ -43,6 +43,16 @@
         crossorigin="anonymous"></script>
 
 <script>
+  const camppaingDefault = {
+    title: "",
+    subtitle: "",
+    link: "https://twitch.tv/eskimozin",
+    legend: "Acesse agora",
+    linkName: "",
+    datetimeInit: `${new Date().toISOString().split('T')[0]}T00:00`,
+    datetimeFinish: `${new Date().toISOString().split('T')[0]}T00:00`
+  }
+
   const vueapp = {
     template: `
       <div class="container">
@@ -108,36 +118,18 @@
         <br>
         <div class="d-flex gap-2">
           <button class="btn btn-secondary" @click="copiarItens">Copiar</button>
-          <button class="btn btn-secondary" disabled @click="alert('XXXX')">Visualizar preview (sob implementação)</button>
+          <button class="btn btn-secondary" disabled @click="alert('XXXX')">Visualizar preview (sob implementação)
+          </button>
         </div>
       </div>`,
     data() {
       return {
-        items: [
-          // Dados iniciais
-          {
-            title: "",
-            subtitle: "",
-            link: "https://twitch.tv/eskimozin",
-            legend: "Acesse agora",
-            linkName: "",
-            datetimeInit: `${new Date().toISOString().split('T')[0]}T00:00`,
-            datetimeFinish: `${new Date().toISOString().split('T')[0]}T00:00`
-          }
-        ]
+        items: [camppaingDefault]
       };
     },
     methods: {
       adicionarItem() {
-        this.items.push({
-          title: "",
-          subtitle: "",
-          link: "https://twitch.tv/eskimozin",
-          legend: "Acesse agora",
-          linkName: "",
-          datetimeInit: `${new Date().toISOString().split('T')[0]}T00:00`,
-          datetimeFinish: `${new Date().toISOString().split('T')[0]}T00:00`
-        });
+        this.items.push(Object.assign({}, camppaingDefault));
       },
       removerItem(index) {
         this.items.splice(index, 1);
